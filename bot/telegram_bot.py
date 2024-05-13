@@ -250,5 +250,6 @@ def telegram_bot_run(Session):
     application.run_polling()
     logger.info('[TG BOT CLOSING]')
 
-#if __name__ == "__main__":
-#    telegram_bot_run()
+if __name__ == "__main__":
+    from core import core_session
+    telegram_bot_run(core_session)
