@@ -1,5 +1,5 @@
 ---
-Title: TheOrdosBot
+title: TheOrdosBot
 for Telegram: quest game bot 
 for Discord: automatic voice moderation
 tg run command: python bot/telegram_bot.py
@@ -15,20 +15,31 @@ Ordos — многофункциональный бот.
 |![image](https://github.com/3ndetz/Ordos/assets/30196290/d29a8eac-51d0-456a-a3c3-2ff0faae6b9a)|![image](https://github.com/3ndetz/Ordos/assets/30196290/fb3210ba-3dae-4303-ada1-ce6409a6981c)|
 
 
-## Использование Discord
-
-### Запущенный экземпляр (не на постоянном хосте, может быть отключен):
-[Добавить бота к себе на сервер](https://discord.com/api/oauth2/authorize?client_id=1192729753392787456&permissions=8&scope=bot)
+## Использование Discord-бота
+_Ordos (греч.) — порядок_
 
 ### Команды и описание:
-[Документация](https://docs.google.com/document/d/1nsf2yZxk8Er3l-1EAKF9AaUWm_-bOYJf4Jv_lLzM5sg/edit)
 
-## Использование Telegram
+Бот автоматически модерирует один из голосовых чатов на серверах Discord. Список запрещенных слов можно настроить индивидуально для каждого сервера. Есть функция определния **токсичного** поведения.
 
-### Запущенный экземпляр (не на постоянном хосте, может быть отключен):
-tg @the_ordos_bot
+Подробнее:
 
-### Пара скриншотов:
+[Документация (Google Docs)](https://docs.google.com/document/d/1nsf2yZxk8Er3l-1EAKF9AaUWm_-bOYJf4Jv_lLzM5sg/edit)
+
+### Запущенный экземпляр от автора:
+_Не на постоянном хосте, может быть отключен_
+
+[Ссылка для добавления бота к себе на сервер](https://discord.com/api/oauth2/authorize?client_id=1192729753392787456&permissions=8&scope=bot)
+
+
+## Использование Telegram-бота
+
+### Запущенный экземпляр:
+_Не на постоянном хосте, может быть отключен_
+
+Telegram [@the_ordos_bot](https://t.me/the_ordos_bot/)
+
+### Пара скриншотов работы квеста в Telegram-боте:
 <details>
   
   1.
@@ -45,7 +56,7 @@ tg @the_ordos_bot
 
 </details>
 
-## Для запуска
+## Для запуска своих экземпляров
 Для запуска ботов нужно создать папку config в корне и в неё поместить config.py.
 Что писать в конфиг читайте далее.
 
