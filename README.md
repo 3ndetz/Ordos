@@ -34,7 +34,7 @@ _Ordos (греч.) — порядок_
 Video demo
 </summary>
 
-<video src='https://github.com/3ndetz/Ordos/blob/master/demo/DemoVoiceModer.mp4'>
+<video src="https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4">
 </video>
 
 </details>
