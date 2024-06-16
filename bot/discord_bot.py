@@ -33,7 +33,7 @@ class GuildData:
             self.guild_id = 1122595942986694658
         else:
             self.guild_id = guild_id
-        self.loyal = False
+        self.loyal = None
         self.badwords = base_badwords_list
         self.guild = None
         self.listening_loop_started = True
@@ -224,9 +224,13 @@ class pycord_voice_client():
                             badword = record[4]["word"]
                             user_id = int(record[2])
                             punish = False
+                            loyal = True
+                            if gd.loyal is not None:
+                                loyal = gd.loyal
                             if user_id in self.violations:
                                 if self.violations[user_id] > 0:
-                                    punish = True
+                                    if not loyal:
+                                        punish = True
                                     self.violations[user_id] = 0
                                 else:
                                     self.violations[user_id] += 1
@@ -482,6 +486,7 @@ class pycord_voice_client():
             try:
                 # print('role id name', role_id_name, 'gdata',g_data,'gdata role',g_data.accepted_role_id)
                 role_id = g_data.get(role_id_name, None)
+                print('MDAAAAAAQ',role_id, role_id_name)
                 # print('role id', role_id)
                 role = member.guild.get_role(role_id)
                 # print('role', role)
@@ -520,6 +525,11 @@ class pycord_voice_client():
                 return {}
 
         async def save_guild_config(guild):
+            try:
+                gd = self.GuildList[guild.id]
+                await check_all_roles(gd)
+            except:
+                pass
             chat = await get_bot_chat(guild, thread_name="параметры")
             config_msg = await get_last_pin(chat)
             if config_msg:
@@ -647,14 +657,14 @@ class pycord_voice_client():
             if isinstance(gd, GuildData):
 
                 gd.vc_channel = voice
-                await gd.vc.move_to(voice)
+                #await gd.vc.move_to(voice)
             else:
                 gd = await init_gdata(guild)
                 gd.vc_channel = voice
-                if gd.vc_channel and gd.listening_loop_started:
-                    await voice_listen_start(ctx, gd=gd)
-                    print('voice listen reloaded!', gd.listening_loop_started, gd.vc, gd.vc_channel, 'lp',
-                          gd.loop_container)
+            if gd.vc_channel and gd.listening_loop_started:
+                await voice_listen_start(ctx, gd=gd)
+                print('voice listen reloaded!', gd.listening_loop_started, gd.vc, gd.vc_channel, 'lp',
+                      gd.loop_container)
             await save_guild_config(ctx.message.guild)
             # data_changed=False
             # if old_gd:
@@ -745,10 +755,10 @@ class pycord_voice_client():
                     result_msg = f"Установлен новый список из {str(len(new_list))} слов."
                 else:
                     oldlen = len(gd.badwords)
-                    remove_words = False if list_type == "удалить" else True
+                    remove_words = True if list_type == "удалить" else False
                     new_list, exc = format_wordlist(text, gd.badwords, remove=remove_words)
                     result_msg = (
-                                     "Удалено" if remove_words else "Добавлено") + f" {str(len(new_list) - oldlen)} новых слов (всего {len(new_list)})"
+                                     "Удалено" if remove_words else "Добавлено") + f" {str(abs(len(new_list) - oldlen))} новых слов (всего {len(new_list)})"
 
                 if exc:
                     return await ctx.send(f"""Неправильно заданы слова: {exc}""")

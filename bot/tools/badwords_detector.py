@@ -48,7 +48,6 @@ def detect_badwords(text: str, badwords: list = None) -> dict:
         badwords = base_badwords_list
     words = str_to_words(text)
     result = {"found": 0.0}
-    # print (words)
     for word in words:
         if word in badwords:
             result["found"] = 1.0
@@ -68,7 +67,8 @@ def toxic_analyze(text: str, result: dict = None) -> dict:
         # predict analyze, front
         if result["predict"]>0.985:
             result["found"] = 1.0 # перезаписываем результат обычного анализатора
-            result["word"] = "Недопустимое поведение"
+            if not result.get("word", None):
+                result["word"] = "Недопустимое поведение"
     except BaseException as err:
         print('DEBUG ошибка работы ToxicDetector, err=',err)
     return result
