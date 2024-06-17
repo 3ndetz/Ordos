@@ -34,10 +34,12 @@ _Ordos (греч.) — порядок_
 Video demo
 </summary>
 
+https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4
+
 <video src="https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4">
 </video>
 
-[(Или ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4)
+[(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4)
 
 </details>
 
