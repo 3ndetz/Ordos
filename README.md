@@ -38,9 +38,9 @@ lol
 
 </details>
 
-<video> src='https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4' width=180></video>
+<video> src='https://github.com/3ndetz/Ordos/raw/master/demo/VoiceModerLight.mp4' width=180></video>
 
-[(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4)
+[(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/VoiceModerLight.mp4)
 
 
 
