@@ -33,11 +33,6 @@ https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7
 
 [(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/VoiceModerLight.mp4)
 
-
-<video autoplay muted playsinline  src='https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7909e'> </video>
-
-
-
 ### Команды и описание:
 
 Бот автоматически модерирует один из голосовых чатов на серверах Discord. Список запрещенных слов можно настроить индивидуально для каждого сервера. Есть функция определния **токсичного** поведения.
