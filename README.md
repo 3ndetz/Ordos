@@ -34,13 +34,13 @@ _Ordos (греч.) — порядок_
 Video demo
 </summary>
 
-https://private-user-images.githubusercontent.com/30196290/340189472-17ac3ebb-3536-432a-8b46-6b47b1b7909e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg2MDMxNDcsIm5iZiI6MTcxODYwMjg0NywicGF0aCI6Ii8zMDE5NjI5MC8zNDAxODk0NzItMTdhYzNlYmItMzUzNi00MzJhLThiNDYtNmI0N2IxYjc5MDllLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjE3VDA1NDA0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEzYjVhZmYyZWQyNTRjMzdhM2NiZjQzYzYzODEzN2FlODZjMzBiYTgyYjM4M2UyN2U0MzYzZWJmNGZkYzU4NTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.8pXBonbswtF_LtRjvHfoGkEhZmKmEJLHkH7xrFpqbcg
+https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7909e
 
 [(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/VoiceModerLight.mp4)
 
 </details>
 
-
+<video src='https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7909e'> </video>
 
 
 
