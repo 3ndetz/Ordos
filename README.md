@@ -41,10 +41,10 @@ lol
 https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4
 
 https://github.com/3ndetz/Ordos/blob/master/demo/DemoVoiceModer.mp4
-
-<video src='https://github.com/3ndetz/Ordos/blob/master/demo/DemoVoiceModer.mp4' width=180/>
-
-<video src='https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4' width=180/>
+lol vid1
+<video src='https://github.com/3ndetz/Ordos/blob/master/demo/DemoVoiceModer.mp4' width=180/></video>
+lol vid2
+<video src='https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4' width=180></video>
 
 [(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/DemoVoiceModer.mp4)
 
