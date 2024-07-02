@@ -2,7 +2,6 @@
 What: Utility bots
 for Telegram: quest game bot 
 for Discord: automatic voice moderation
-license: mit
 ---
 
 ## Что это?
