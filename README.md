@@ -1,11 +1,20 @@
----
-What: Utility bots
-for Telegram: quest game bot 
-for Discord: automatic voice moderation
-license: mit
+# The Ordos Bot
+
+
+Brief functionality:
+
+| Discord                    | Telegram       |
+|----------------------------|----------------|
+| Automatic voice moderation | Quest game bot |
+
 ---
 
-## Что это?
+## Discord videodemo
+_(это видео со звуком, не забудьте размутить)_
+
+https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7909e
+
+## Кратко
 Ordos — многофункциональный бот.
 В репозиторий включен игровой квест-бот для Telegram и бот-модератор для Discord. Discord сразу запустить не получится (см. инструкцию запуска).
 
@@ -26,11 +35,7 @@ Ordos — многофункциональный бот.
 ## Использование Discord-бота
 _Ordos (греч.) — порядок_
 
-### Демо (видео, не забудьте включить звук)
-
-https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7909e
-
-[(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/VoiceModerLight.mp4)
+Демо — см. [видео](#discord-videodemo)
 
 ### Команды и описание:
 
