@@ -1,10 +1,19 @@
----
-What: Utility bots
-for Telegram: quest game bot 
-for Discord: automatic voice moderation
+# The Ordos Bot
+
+Brief functionality:
+
+| Discord                    | Telegram       |
+|----------------------------|----------------|
+| Automatic voice moderation | Quest game bot |
+
 ---
 
-## Что это?
+## Discord videodemo
+_(это видео со звуком, не забудьте размутить)_
+
+https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7909e
+
+## Кратко
 Ordos — многофункциональный бот.
 В репозиторий включен игровой квест-бот для Telegram и бот-модератор для Discord. Discord сразу запустить не получится (см. инструкцию запуска).
 
@@ -25,17 +34,15 @@ Ordos — многофункциональный бот.
 ## Использование Discord-бота
 _Ordos (греч.) — порядок_
 
-### Демо (видео, не забудьте включить звук)
-
-https://github.com/3ndetz/Ordos/assets/30196290/17ac3ebb-3536-432a-8b46-6b47b1b7909e
-
-[(Или скачать ссылкой)](https://github.com/3ndetz/Ordos/raw/master/demo/VoiceModerLight.mp4)
+Демо — см. [видео](#discord-videodemo)
 
 ### Команды и описание:
 
 Бот автоматически модерирует один из голосовых чатов на серверах Discord. Список запрещенных слов можно настроить индивидуально для каждого сервера. Есть функция определния **токсичного** поведения.
+<details><summary>Презентация с защиты</summary>
 
-Подробнее:
+[Ссылка](https://github.com/3ndetz/Ordos/blob/master/OrdosGithub.pdf) на эту презентацию (pdf)
+</details>
 
 [Документация (Google Docs)](https://docs.google.com/document/d/1nsf2yZxk8Er3l-1EAKF9AaUWm_-bOYJf4Jv_lLzM5sg/edit)
 
@@ -52,8 +59,7 @@ _Не на постоянном хосте, может быть отключен
 
 Telegram [@the_ordos_bot](https://t.me/the_ordos_bot/)
 
-### Пара скриншотов работы квеста в Telegram-боте:
-<details>
+<details><summary>Пара скриншотов работы квеста в Telegram-боте</summary>
   
   1.
   ![image](https://github.com/3ndetz/Ordos/assets/30196290/9ee9d6e3-0b64-4f80-9d22-c40b1d8b52b4)
