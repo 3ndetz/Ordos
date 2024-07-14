@@ -41,7 +41,7 @@ _Ordos (греч.) — порядок_
 Бот автоматически модерирует один из голосовых чатов на серверах Discord. Список запрещенных слов можно настроить индивидуально для каждого сервера. Есть функция определния **токсичного** поведения.
 <details><summary>Презентация с защиты</summary>
 
-[Ссылка](https://github.com/3ndetz/Ordos/blob/master/OrdosGithub.pdf) на эту презентацию (pdf)
+[Ссылка](https://github.com/3ndetz/Ordos/blob/master/demo/OrdosGithub.pdf) на эту презентацию (pdf)
 </details>
 
 [Документация (Google Docs)](https://docs.google.com/document/d/1nsf2yZxk8Er3l-1EAKF9AaUWm_-bOYJf4Jv_lLzM5sg/edit)
